@@ -1,0 +1,962 @@
+{
+  "synthetic": true,
+  "messages": [
+    {
+      "id": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "David Osei"
+      ],
+      "subject": "Great meeting you yesterday",
+      "body": "Hi David, great speaking yesterday. To recap, Harborview Medical has 340 staff across 3 clinics, and you kindly agreed to champion this internally. I will send over the proposal draft this week. Thanks again for the time.",
+      "facts": [
+        "F04",
+        "F07",
+        "F08"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "channel": "email",
+      "sender": "David Osei",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Re: Great meeting you yesterday",
+      "body": "Hi Priya, happy to help move this forward. Looping in Rachel Kim, our VP Finance, who will need to approve the commercial terms. She is the right person for pricing and billing questions.",
+      "facts": [
+        "F09"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#harborview",
+      "body": "Quick note: David Osei confirmed as our champion on the Harborview deal. He runs operations and has the ear of the executive team. Good sign.",
+      "facts": [
+        "F04"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "David Osei",
+        "Tom Alvarez"
+      ],
+      "subject": "Discovery recap notes",
+      "body": "Discovery recap. Harborview Medical is evaluating a 2-year term. Proposed pricing is $96,000 per year. David asked for a security overview document before the next meeting.",
+      "facts": [
+        "F01",
+        "F06"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "channel": "email",
+      "sender": "Rachel Kim",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Billing terms question",
+      "body": "Hi Priya, thanks for the proposal. Before we go further, could we do quarterly billing instead of annual prepay? Our finance team strongly prefers quarterly billing for new vendors. Best, Rachel.",
+      "facts": [
+        "F02",
+        "F09"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#harborview",
+      "body": "Heads up: Rachel Kim asked for quarterly billing on the Harborview deal. I need to check with our finance team whether we can accommodate that before I reply.",
+      "facts": [
+        "F02"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "Rachel Kim"
+      ],
+      "subject": "Re: Billing terms question",
+      "body": "Hi Rachel, good news: we can offer quarterly billing for Harborview Medical. I have updated the proposal to reflect quarterly billing terms. Let me know if anything else needs adjusting.",
+      "facts": [
+        "F02"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-008",
+      "timestamp": "2026-10-15T13:00:00",
+      "channel": "meeting",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "David Osei",
+        "Priya Raman"
+      ],
+      "subject": "Security review kickoff notes",
+      "body": "Security review kicked off today. Harborview IT sent over their vendor questionnaire. The security review is now pending on their side; we expect their questions within a week.",
+      "facts": [
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-009",
+      "timestamp": "2026-10-20T08:55:00",
+      "channel": "email",
+      "sender": "David Osei",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Security review status",
+      "body": "Hi Priya, quick update: the security review is still pending. Our IT team is backlogged this month, but they have the questionnaire and are working through it.",
+      "facts": [
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-010",
+      "timestamp": "2026-10-27T17:10:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#harborview",
+      "body": "Chasing Harborview IT again today. The security review is still pending and it is now the gating item for the December timeline.",
+      "facts": [
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "David Osei"
+      ],
+      "subject": "Timeline check",
+      "body": "Hi David, checking in on timing. We are targeting a December 12 close for the Harborview deal. Can you confirm that date still works on your side?",
+      "facts": [
+        "F03"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "channel": "email",
+      "sender": "David Osei",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Re: Timeline check",
+      "body": "Hi Priya, December 12 works if the security review clears by November 24. I will push IT for an answer this week. Otherwise we may slip into January.",
+      "facts": [
+        "F03",
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#harborview",
+      "body": "Update: David confirmed the December 12 close target for Harborview, contingent on the security review. Keeping the forecast as-is for now.",
+      "facts": [
+        "F03"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "channel": "email",
+      "sender": "Rachel Kim",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Budget confirmation",
+      "body": "Hi Priya, confirming that $96,000 per year fits our budget, and quarterly billing is confirmed on our side. Looking forward to getting this wrapped up.",
+      "facts": [
+        "F01",
+        "F02"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "channel": "email",
+      "sender": "David Osei",
+      "participants": [
+        "Rachel Kim"
+      ],
+      "subject": "Vendor evaluation update",
+      "body": "Hi Rachel, quick internal update: I am championing the Meridian evaluation. They proposed $96,000 per year and we are leaning toward a 2-year term. The security review is the main open item.",
+      "facts": [
+        "F06",
+        "F04",
+        "F01"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "channel": "email",
+      "sender": "Rachel Kim",
+      "participants": [
+        "David Osei"
+      ],
+      "subject": "Re: Budget confirmation",
+      "body": "David, finance has confirmed the budget for $96,000 per year. I have told Priya we can proceed once the security review is done.",
+      "facts": [
+        "F01",
+        "F09"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "David Osei"
+      ],
+      "subject": "Checking on the security review",
+      "body": "Hi David, just checking whether there is any news on the security review. It is still showing as pending on our tracker, and December 12 depends on it.",
+      "facts": [
+        "F05",
+        "F03"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-018",
+      "timestamp": "2026-10-02T09:00:00",
+      "channel": "email",
+      "sender": "Sam Okafor",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Renewal conversation",
+      "body": "Hi Priya, our renewal is coming up and I would like to discuss an expansion alongside it. Can we set up a call next week? Best, Sam.",
+      "facts": [
+        "F16"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Sam Okafor",
+        "Grace Nolan"
+      ],
+      "subject": "Renewal meeting notes",
+      "body": "Renewal meeting. The Beacon Freight renewal is $145,000 per year, and the renewal date is January 31. Sam raised the expansion idea; Grace will review the numbers.",
+      "facts": [
+        "F10",
+        "F11"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "channel": "email",
+      "sender": "Grace Nolan",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Introduction",
+      "body": "Hi Priya, I am Grace Nolan, CFO at Beacon Freight. Sam speaks highly of the partnership. Any expansion spend will need board approval, so please factor that into the timeline.",
+      "facts": [
+        "F13",
+        "F15"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#beacon",
+      "body": "Beacon expansion scope is now clear: the analytics module plus 25 additional seats. Tom, can you prep a demo of the analytics module for Sam's team?",
+      "facts": [
+        "F12"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "channel": "email",
+      "sender": "Sam Okafor",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Timing",
+      "body": "Hi Priya, I would like the renewal signed before the holidays, ideally by December 19. Can we work toward that? The team wants this settled before year end.",
+      "facts": [
+        "F14"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-023",
+      "timestamp": "2026-10-16T09:35:00",
+      "channel": "email",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Sam Okafor"
+      ],
+      "subject": "Analytics module demo",
+      "body": "Hi Sam, the analytics module demo is scheduled for next Tuesday. I will cover the reporting features your team asked about, including the 25-seat expansion setup.",
+      "facts": [
+        "F12"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "channel": "meeting",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Sam Okafor",
+        "Grace Nolan"
+      ],
+      "subject": "Demo debrief notes",
+      "body": "Demo debrief. The analytics module demo went well. Grace reiterated that the expansion needs board approval, and the board meets in December.",
+      "facts": [
+        "F12",
+        "F13"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-025",
+      "timestamp": "2026-10-28T07:50:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#beacon-support",
+      "body": "Incident: service outage this morning affected Beacon Freight. Resolved in 2 hours. Root cause was a database failover. Postmortem to follow.",
+      "facts": [
+        "F17"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "Grace Nolan"
+      ],
+      "subject": "Outage postmortem and renewal recap",
+      "body": "Hi Grace, attaching the postmortem for the October 28 outage, which affected Beacon Freight and was resolved in 2 hours. Separately, recapping the renewal at $145,000 per year.",
+      "facts": [
+        "F10",
+        "F17"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "channel": "email",
+      "sender": "Grace Nolan",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Board timing",
+      "body": "Hi Priya, the board meets on December 9. The expansion decision will come after that meeting, since the expansion spend needs board approval.",
+      "facts": [
+        "F13"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "channel": "slack",
+      "sender": "Sam Okafor",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#beacon",
+      "body": "Pushing internally for a December 19 signature on the renewal. Grace is aligned on the renewal itself; only the expansion waits on the board.",
+      "facts": [
+        "F14",
+        "F13"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "Sam Okafor"
+      ],
+      "subject": "Renewal paperwork",
+      "body": "Hi Sam, the renewal paperwork is ready for review. Confirming the renewal date of January 31 and the $145,000 per year figure. Let me know when you have had a chance to review.",
+      "facts": [
+        "F11",
+        "F10"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Grace Nolan",
+        "Sam Okafor"
+      ],
+      "subject": "Renewal check-in notes",
+      "body": "Check-in: Grace confirmed the $145,000 per year renewal. The expansion, adding the analytics module and 25 seats, is pending board approval.",
+      "facts": [
+        "F10",
+        "F13",
+        "F12"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "channel": "email",
+      "sender": "Grace Nolan",
+      "participants": [
+        "Sam Okafor"
+      ],
+      "subject": "Board process",
+      "body": "Sam, for the expansion I need a one-page justification before the December board meeting. The analytics module and 25 seats are the scope. Board approval is required for this spend.",
+      "facts": [
+        "F13",
+        "F12"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#sales",
+      "body": "Sam is pushing for a December 19 signature on the Beacon renewal. Renewal itself is straightforward; expansion is the only piece waiting on the board.",
+      "facts": [
+        "F14"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "channel": "email",
+      "sender": "Ingrid Sorensen",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Pilot inquiry",
+      "body": "Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what a pilot typically looks like?",
+      "facts": [
+        "F24"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Ingrid Sorensen",
+        "Tom Alvarez"
+      ],
+      "subject": "Pilot scoping notes",
+      "body": "Pilot scoping: the Larkspur Outdoors pilot runs for 6 weeks with 20 users, starting November 17. Ingrid will lead the evaluation.",
+      "facts": [
+        "F18",
+        "F19",
+        "F26",
+        "F21"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "channel": "email",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Ingrid Sorensen"
+      ],
+      "subject": "Pilot plan",
+      "body": "Hi Ingrid, attaching the pilot plan. The agreed success criterion is cutting invoice processing time by 30% over the 6 weeks of the pilot.",
+      "facts": [
+        "F20",
+        "F18"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "channel": "email",
+      "sender": "Paul Whitaker",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Vendor onboarding",
+      "body": "Hi Priya, I am Paul Whitaker, Procurement Manager at Larkspur Outdoors. I handle vendor onboarding paperwork, and I will need your security documentation to get started.",
+      "facts": [
+        "F23",
+        "F25"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#larkspur",
+      "body": "Larkspur update: Ingrid Sorensen is evaluating the pilot, and the decision is due by January 9. Paul is handling the onboarding paperwork in parallel.",
+      "facts": [
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-038",
+      "timestamp": "2026-10-22T14:35:00",
+      "channel": "email",
+      "sender": "Ingrid Sorensen",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Pilot users",
+      "body": "Hi Priya, confirming 20 users for the pilot, drawn from finance and warehouse operations. Let me know if you need the list of names.",
+      "facts": [
+        "F19"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-039",
+      "timestamp": "2026-10-26T11:20:00",
+      "channel": "email",
+      "sender": "Paul Whitaker",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "Onboarding paperwork submitted",
+      "body": "Hi Tom, the vendor onboarding paperwork has been submitted to our legal team. I handle the paperwork on our side, so come to me with any questions.",
+      "facts": [
+        "F23"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Ingrid Sorensen",
+        "Paul Whitaker"
+      ],
+      "subject": "Pilot scope lock notes",
+      "body": "Pilot scope locked: 6 weeks, 20 users, starting November 17. Success means cutting invoice processing time by 30%. Ingrid owns the evaluation.",
+      "facts": [
+        "F18",
+        "F20",
+        "F19",
+        "F26",
+        "F21"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#larkspur",
+      "body": "Reminder: the Larkspur pilot starts November 17. Ingrid is leading the evaluation and has the technical checklist.",
+      "facts": [
+        "F26",
+        "F21"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "channel": "email",
+      "sender": "Ingrid Sorensen",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Decision meeting",
+      "body": "Hi Priya, I have set the internal decision meeting for January 9. We will decide on the pilot by January 9, based on the invoice processing results.",
+      "facts": [
+        "F22",
+        "F20"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "channel": "email",
+      "sender": "Paul Whitaker",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Onboarding approved",
+      "body": "Hi Priya, good news: the vendor onboarding paperwork is approved. We are clear to start the pilot on November 17.",
+      "facts": [
+        "F23",
+        "F26"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#larkspur",
+      "body": "Kickoff reminder: 20 users confirmed for the Larkspur pilot, starting November 17. Ingrid has the agenda.",
+      "facts": [
+        "F19",
+        "F26"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "channel": "email",
+      "sender": "Ingrid Sorensen",
+      "participants": [
+        "Paul Whitaker"
+      ],
+      "subject": "Evaluation criteria",
+      "body": "Hi Paul, for the pilot evaluation I will measure whether we cut invoice processing time by 30%. That is the success criterion we agreed with Meridian.",
+      "facts": [
+        "F20",
+        "F21"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "channel": "email",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Ingrid Sorensen"
+      ],
+      "subject": "Pilot tech checklist",
+      "body": "Hi Ingrid, attaching the technical checklist for the 6 weeks pilot with 20 users. Everything is ready for the November 17 start.",
+      "facts": [
+        "F18",
+        "F19",
+        "F26"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "channel": "slack",
+      "sender": "Paul Whitaker",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#larkspur",
+      "body": "Confirming onboarding is done on my side. The pilot starts November 17 and I have handed the paperwork file to Ingrid.",
+      "facts": [
+        "F23",
+        "F26"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-048",
+      "timestamp": "2026-10-06T10:30:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#support",
+      "body": "Ironwood Components opened a support ticket: their report export is slow. No open deal here, just support. Can you take a look?",
+      "facts": [
+        "F27"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-049",
+      "timestamp": "2026-10-12T09:20:00",
+      "channel": "email",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Ironwood ticket resolved",
+      "body": "Hi Priya, the Ironwood ticket is resolved. For the record, Ironwood Components has no open deal with us; the relationship is support-only.",
+      "facts": [
+        "F27"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#support",
+      "body": "Note for the forecast: Ironwood Components renewed back in June and there is nothing open. Support-only account.",
+      "facts": [
+        "F28",
+        "F27"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-051",
+      "timestamp": "2026-11-09T15:40:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "Ironwood QBR",
+      "body": "Hi Tom, the Ironwood QBR is scheduled for next month. No expansion discussion planned; this is a support-only relationship with no open deal.",
+      "facts": [
+        "F27"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#sales",
+      "body": "Quick intro for the channel: I am the Meridian account executive covering Harborview Medical, Beacon Freight, and Larkspur Outdoors this quarter.",
+      "facts": [
+        "F29"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-053",
+      "timestamp": "2026-10-03T08:45:00",
+      "channel": "slack",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "#sales",
+      "body": "And I am the sales engineer supporting all three deals. Ping me for demos, security reviews, or pilot setup.",
+      "facts": [
+        "F30"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "channel": "email",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "Weekly pipeline",
+      "body": "Hi Tom, weekly pipeline: Harborview at $96,000 per year, Beacon renewal at $145,000 per year, and the Larkspur pilot running 6 weeks. Harborview security review is the main risk.",
+      "facts": [
+        "F01",
+        "F10",
+        "F18",
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#sales",
+      "body": "Forecast discussion: Harborview closing December 12, Beacon renewal January 31, Larkspur decision January 9. All three need attention this month.",
+      "facts": [
+        "F03",
+        "F11",
+        "F22"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "channel": "email",
+      "sender": "Tom Alvarez",
+      "participants": [
+        "Priya Raman"
+      ],
+      "subject": "Security review status",
+      "body": "Hi Priya, security review status across deals: Harborview is still pending, Beacon cleared theirs last year, and Larkspur's onboarding covers security. Harborview is the only pending one.",
+      "facts": [
+        "F05"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#sales",
+      "body": "End of month note: Rachel Kim's quarterly billing request for Harborview is approved. That removes the last commercial blocker.",
+      "facts": [
+        "F02"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "Pipeline review notes",
+      "body": "Pipeline review. Champions and evaluators: David Osei champions Harborview, Sam Okafor drives Beacon, and Ingrid Sorensen is evaluating the Larkspur pilot.",
+      "facts": [
+        "F04",
+        "F21"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "channel": "slack",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "#sales",
+      "body": "Grace Nolan's board meets December 9, which gates the Beacon expansion decision. The renewal itself is not gated.",
+      "facts": [
+        "F13"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "channel": "meeting",
+      "sender": "Priya Raman",
+      "participants": [
+        "Tom Alvarez"
+      ],
+      "subject": "Weekly pipeline notes",
+      "body": "Weekly pipeline: Harborview $96,000 per year closing December 12, Beacon renewal $145,000 per year on January 31, Larkspur decision January 9. Ironwood has nothing open.",
+      "facts": [
+        "F01",
+        "F10",
+        "F03",
+        "F11",
+        "F22",
+        "F27"
+      ],
+      "synthetic": true
+    }
+  ]
+}

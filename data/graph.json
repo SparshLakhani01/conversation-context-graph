@@ -1,0 +1,5659 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "person",
+      "label": "Rachel Kim",
+      "title": "VP Finance",
+      "company": "C01",
+      "id": "P01"
+    },
+    {
+      "kind": "person",
+      "label": "David Osei",
+      "title": "Director of Operations",
+      "company": "C01",
+      "id": "P02"
+    },
+    {
+      "kind": "person",
+      "label": "Priya Raman",
+      "title": "Account Executive",
+      "company": "C00",
+      "id": "P03"
+    },
+    {
+      "kind": "person",
+      "label": "Tom Alvarez",
+      "title": "Sales Engineer",
+      "company": "C00",
+      "id": "P04"
+    },
+    {
+      "kind": "person",
+      "label": "Grace Nolan",
+      "title": "CFO",
+      "company": "C02",
+      "id": "P05"
+    },
+    {
+      "kind": "person",
+      "label": "Sam Okafor",
+      "title": "VP Operations",
+      "company": "C02",
+      "id": "P06"
+    },
+    {
+      "kind": "person",
+      "label": "Ingrid Sorensen",
+      "title": "Head of IT",
+      "company": "C03",
+      "id": "P07"
+    },
+    {
+      "kind": "person",
+      "label": "Paul Whitaker",
+      "title": "Procurement Manager",
+      "company": "C03",
+      "id": "P08"
+    },
+    {
+      "kind": "company",
+      "label": "Meridian",
+      "id": "C00"
+    },
+    {
+      "kind": "company",
+      "label": "Harborview Medical",
+      "id": "C01"
+    },
+    {
+      "kind": "company",
+      "label": "Beacon Freight",
+      "id": "C02"
+    },
+    {
+      "kind": "company",
+      "label": "Larkspur Outdoors",
+      "id": "C03"
+    },
+    {
+      "kind": "company",
+      "label": "Ironwood Components",
+      "id": "C04"
+    },
+    {
+      "kind": "deal",
+      "label": "Harborview Medical annual contract",
+      "company": "C01",
+      "id": "D01"
+    },
+    {
+      "kind": "deal",
+      "label": "Beacon Freight renewal and expansion",
+      "company": "C02",
+      "id": "D02"
+    },
+    {
+      "kind": "deal",
+      "label": "Larkspur Outdoors pilot",
+      "company": "C03",
+      "id": "D03"
+    },
+    {
+      "kind": "fact",
+      "label": "The Harborview Medical deal is worth $96,000 per year.",
+      "source_msgs": [
+        "MSG-004",
+        "MSG-014",
+        "MSG-015",
+        "MSG-016",
+        "MSG-054",
+        "MSG-060"
+      ],
+      "id": "F01"
+    },
+    {
+      "kind": "fact",
+      "label": "Rachel Kim asked for quarterly billing terms for the Harborview Medical deal.",
+      "source_msgs": [
+        "MSG-005",
+        "MSG-006",
+        "MSG-007",
+        "MSG-014",
+        "MSG-057"
+      ],
+      "id": "F02"
+    },
+    {
+      "kind": "fact",
+      "label": "The Harborview Medical deal is expected to close on December 12.",
+      "source_msgs": [
+        "MSG-011",
+        "MSG-012",
+        "MSG-013",
+        "MSG-017",
+        "MSG-055",
+        "MSG-060"
+      ],
+      "id": "F03"
+    },
+    {
+      "kind": "fact",
+      "label": "David Osei is the champion for the Harborview Medical deal.",
+      "source_msgs": [
+        "MSG-001",
+        "MSG-003",
+        "MSG-015",
+        "MSG-058"
+      ],
+      "id": "F04"
+    },
+    {
+      "kind": "fact",
+      "label": "A security review is still pending for the Harborview Medical deal.",
+      "source_msgs": [
+        "MSG-008",
+        "MSG-009",
+        "MSG-010",
+        "MSG-012",
+        "MSG-017",
+        "MSG-054",
+        "MSG-056"
+      ],
+      "id": "F05"
+    },
+    {
+      "kind": "fact",
+      "label": "Harborview Medical is considering a 2-year term.",
+      "source_msgs": [
+        "MSG-004",
+        "MSG-015"
+      ],
+      "id": "F06"
+    },
+    {
+      "kind": "fact",
+      "label": "Harborview Medical has 340 staff across 3 clinics.",
+      "source_msgs": [
+        "MSG-001"
+      ],
+      "id": "F07"
+    },
+    {
+      "kind": "fact",
+      "label": "David Osei is Director of Operations at Harborview Medical.",
+      "source_msgs": [
+        "MSG-001"
+      ],
+      "id": "F08"
+    },
+    {
+      "kind": "fact",
+      "label": "Rachel Kim is VP Finance at Harborview Medical.",
+      "source_msgs": [
+        "MSG-002",
+        "MSG-005",
+        "MSG-016"
+      ],
+      "id": "F09"
+    },
+    {
+      "kind": "fact",
+      "label": "The Beacon Freight renewal is worth $145,000 per year.",
+      "source_msgs": [
+        "MSG-019",
+        "MSG-026",
+        "MSG-029",
+        "MSG-030",
+        "MSG-054",
+        "MSG-060"
+      ],
+      "id": "F10"
+    },
+    {
+      "kind": "fact",
+      "label": "The Beacon Freight renewal date is January 31.",
+      "source_msgs": [
+        "MSG-019",
+        "MSG-029",
+        "MSG-055",
+        "MSG-060"
+      ],
+      "id": "F11"
+    },
+    {
+      "kind": "fact",
+      "label": "Beacon Freight is considering an expansion adding the analytics module and 25 seats.",
+      "source_msgs": [
+        "MSG-021",
+        "MSG-023",
+        "MSG-024",
+        "MSG-030",
+        "MSG-031"
+      ],
+      "id": "F12"
+    },
+    {
+      "kind": "fact",
+      "label": "Beacon Freight's expansion spend needs board approval.",
+      "source_msgs": [
+        "MSG-020",
+        "MSG-024",
+        "MSG-027",
+        "MSG-028",
+        "MSG-030",
+        "MSG-031",
+        "MSG-059"
+      ],
+      "id": "F13"
+    },
+    {
+      "kind": "fact",
+      "label": "Sam Okafor wants the Beacon Freight renewal signed before the holidays, by December 19.",
+      "source_msgs": [
+        "MSG-022",
+        "MSG-028",
+        "MSG-032"
+      ],
+      "id": "F14"
+    },
+    {
+      "kind": "fact",
+      "label": "Grace Nolan is CFO at Beacon Freight.",
+      "source_msgs": [
+        "MSG-020"
+      ],
+      "id": "F15"
+    },
+    {
+      "kind": "fact",
+      "label": "Sam Okafor is VP Operations at Beacon Freight.",
+      "source_msgs": [
+        "MSG-018"
+      ],
+      "id": "F16"
+    },
+    {
+      "kind": "fact",
+      "label": "Beacon Freight was affected by a service outage on October 28 that was resolved in 2 hours.",
+      "source_msgs": [
+        "MSG-025",
+        "MSG-026"
+      ],
+      "id": "F17"
+    },
+    {
+      "kind": "fact",
+      "label": "The Larkspur Outdoors pilot runs for 6 weeks.",
+      "source_msgs": [
+        "MSG-034",
+        "MSG-035",
+        "MSG-040",
+        "MSG-046",
+        "MSG-054"
+      ],
+      "id": "F18"
+    },
+    {
+      "kind": "fact",
+      "label": "The Larkspur Outdoors pilot includes 20 users.",
+      "source_msgs": [
+        "MSG-034",
+        "MSG-038",
+        "MSG-040",
+        "MSG-044",
+        "MSG-046"
+      ],
+      "id": "F19"
+    },
+    {
+      "kind": "fact",
+      "label": "The Larkspur Outdoors pilot's success criterion is cutting invoice processing time by 30%.",
+      "source_msgs": [
+        "MSG-035",
+        "MSG-040",
+        "MSG-042",
+        "MSG-045"
+      ],
+      "id": "F20"
+    },
+    {
+      "kind": "fact",
+      "label": "Ingrid Sorensen is evaluating the Larkspur Outdoors pilot.",
+      "source_msgs": [
+        "MSG-034",
+        "MSG-037",
+        "MSG-040",
+        "MSG-041",
+        "MSG-045",
+        "MSG-058"
+      ],
+      "id": "F21"
+    },
+    {
+      "kind": "fact",
+      "label": "Larkspur Outdoors will decide on the pilot by January 9.",
+      "source_msgs": [
+        "MSG-037",
+        "MSG-042",
+        "MSG-055",
+        "MSG-060"
+      ],
+      "id": "F22"
+    },
+    {
+      "kind": "fact",
+      "label": "Paul Whitaker handles vendor onboarding paperwork at Larkspur Outdoors.",
+      "source_msgs": [
+        "MSG-036",
+        "MSG-037",
+        "MSG-039",
+        "MSG-043",
+        "MSG-047"
+      ],
+      "id": "F23"
+    },
+    {
+      "kind": "fact",
+      "label": "Ingrid Sorensen is Head of IT at Larkspur Outdoors.",
+      "source_msgs": [
+        "MSG-033"
+      ],
+      "id": "F24"
+    },
+    {
+      "kind": "fact",
+      "label": "Paul Whitaker is Procurement Manager at Larkspur Outdoors.",
+      "source_msgs": [
+        "MSG-036"
+      ],
+      "id": "F25"
+    },
+    {
+      "kind": "fact",
+      "label": "The Larkspur Outdoors pilot starts on November 17.",
+      "source_msgs": [
+        "MSG-034",
+        "MSG-040",
+        "MSG-041",
+        "MSG-043",
+        "MSG-044",
+        "MSG-046",
+        "MSG-047"
+      ],
+      "id": "F26"
+    },
+    {
+      "kind": "fact",
+      "label": "Ironwood Components has no open deal with Meridian; the relationship is support-only.",
+      "source_msgs": [
+        "MSG-048",
+        "MSG-049",
+        "MSG-050",
+        "MSG-051",
+        "MSG-060"
+      ],
+      "id": "F27"
+    },
+    {
+      "kind": "fact",
+      "label": "Ironwood Components renewed its contract back in June.",
+      "source_msgs": [
+        "MSG-050"
+      ],
+      "id": "F28"
+    },
+    {
+      "kind": "fact",
+      "label": "Priya Raman is the Meridian account executive for these accounts.",
+      "source_msgs": [
+        "MSG-052"
+      ],
+      "id": "F29"
+    },
+    {
+      "kind": "fact",
+      "label": "Tom Alvarez is the Meridian sales engineer supporting these deals.",
+      "source_msgs": [
+        "MSG-053"
+      ],
+      "id": "F30"
+    },
+    {
+      "kind": "message",
+      "label": "Great meeting you yesterday",
+      "channel": "email",
+      "timestamp": "2026-10-01T09:15:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-001"
+    },
+    {
+      "kind": "message",
+      "label": "Re: Great meeting you yesterday",
+      "channel": "email",
+      "timestamp": "2026-10-02T14:40:00",
+      "sender": "David Osei",
+      "synthetic": true,
+      "id": "MSG-002"
+    },
+    {
+      "kind": "message",
+      "label": "#harborview",
+      "channel": "slack",
+      "timestamp": "2026-10-03T11:05:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-003"
+    },
+    {
+      "kind": "message",
+      "label": "Discovery recap notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-06T16:20:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-004"
+    },
+    {
+      "kind": "message",
+      "label": "Billing terms question",
+      "channel": "email",
+      "timestamp": "2026-10-08T10:02:00",
+      "sender": "Rachel Kim",
+      "synthetic": true,
+      "id": "MSG-005"
+    },
+    {
+      "kind": "message",
+      "label": "#harborview",
+      "channel": "slack",
+      "timestamp": "2026-10-09T09:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-006"
+    },
+    {
+      "kind": "message",
+      "label": "Re: Billing terms question",
+      "channel": "email",
+      "timestamp": "2026-10-13T15:45:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-007"
+    },
+    {
+      "kind": "message",
+      "label": "Security review kickoff notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-15T13:00:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-008"
+    },
+    {
+      "kind": "message",
+      "label": "Security review status",
+      "channel": "email",
+      "timestamp": "2026-10-20T08:55:00",
+      "sender": "David Osei",
+      "synthetic": true,
+      "id": "MSG-009"
+    },
+    {
+      "kind": "message",
+      "label": "#harborview",
+      "channel": "slack",
+      "timestamp": "2026-10-27T17:10:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-010"
+    },
+    {
+      "kind": "message",
+      "label": "Timeline check",
+      "channel": "email",
+      "timestamp": "2026-11-03T10:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-011"
+    },
+    {
+      "kind": "message",
+      "label": "Re: Timeline check",
+      "channel": "email",
+      "timestamp": "2026-11-05T12:15:00",
+      "sender": "David Osei",
+      "synthetic": true,
+      "id": "MSG-012"
+    },
+    {
+      "kind": "message",
+      "label": "#harborview",
+      "channel": "slack",
+      "timestamp": "2026-11-10T09:20:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-013"
+    },
+    {
+      "kind": "message",
+      "label": "Budget confirmation",
+      "channel": "email",
+      "timestamp": "2026-11-12T14:00:00",
+      "sender": "Rachel Kim",
+      "synthetic": true,
+      "id": "MSG-014"
+    },
+    {
+      "kind": "message",
+      "label": "Vendor evaluation update",
+      "channel": "email",
+      "timestamp": "2026-10-19T11:25:00",
+      "sender": "David Osei",
+      "synthetic": true,
+      "id": "MSG-015"
+    },
+    {
+      "kind": "message",
+      "label": "Re: Budget confirmation",
+      "channel": "email",
+      "timestamp": "2026-11-06T16:40:00",
+      "sender": "Rachel Kim",
+      "synthetic": true,
+      "id": "MSG-016"
+    },
+    {
+      "kind": "message",
+      "label": "Checking on the security review",
+      "channel": "email",
+      "timestamp": "2026-11-12T18:05:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-017"
+    },
+    {
+      "kind": "message",
+      "label": "Renewal conversation",
+      "channel": "email",
+      "timestamp": "2026-10-02T09:00:00",
+      "sender": "Sam Okafor",
+      "synthetic": true,
+      "id": "MSG-018"
+    },
+    {
+      "kind": "message",
+      "label": "Renewal meeting notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-05T15:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-019"
+    },
+    {
+      "kind": "message",
+      "label": "Introduction",
+      "channel": "email",
+      "timestamp": "2026-10-07T11:10:00",
+      "sender": "Grace Nolan",
+      "synthetic": true,
+      "id": "MSG-020"
+    },
+    {
+      "kind": "message",
+      "label": "#beacon",
+      "channel": "slack",
+      "timestamp": "2026-10-09T13:45:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-021"
+    },
+    {
+      "kind": "message",
+      "label": "Timing",
+      "channel": "email",
+      "timestamp": "2026-10-14T10:20:00",
+      "sender": "Sam Okafor",
+      "synthetic": true,
+      "id": "MSG-022"
+    },
+    {
+      "kind": "message",
+      "label": "Analytics module demo",
+      "channel": "email",
+      "timestamp": "2026-10-16T09:35:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-023"
+    },
+    {
+      "kind": "message",
+      "label": "Demo debrief notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-21T16:00:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-024"
+    },
+    {
+      "kind": "message",
+      "label": "#beacon-support",
+      "channel": "slack",
+      "timestamp": "2026-10-28T07:50:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-025"
+    },
+    {
+      "kind": "message",
+      "label": "Outage postmortem and renewal recap",
+      "channel": "email",
+      "timestamp": "2026-10-29T12:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-026"
+    },
+    {
+      "kind": "message",
+      "label": "Board timing",
+      "channel": "email",
+      "timestamp": "2026-11-04T15:15:00",
+      "sender": "Grace Nolan",
+      "synthetic": true,
+      "id": "MSG-027"
+    },
+    {
+      "kind": "message",
+      "label": "#beacon",
+      "channel": "slack",
+      "timestamp": "2026-11-06T10:05:00",
+      "sender": "Sam Okafor",
+      "synthetic": true,
+      "id": "MSG-028"
+    },
+    {
+      "kind": "message",
+      "label": "Renewal paperwork",
+      "channel": "email",
+      "timestamp": "2026-11-11T09:45:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-029"
+    },
+    {
+      "kind": "message",
+      "label": "Renewal check-in notes",
+      "channel": "meeting",
+      "timestamp": "2026-11-13T14:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-030"
+    },
+    {
+      "kind": "message",
+      "label": "Board process",
+      "channel": "email",
+      "timestamp": "2026-10-23T08:40:00",
+      "sender": "Grace Nolan",
+      "synthetic": true,
+      "id": "MSG-031"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-11-11T17:25:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-032"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot inquiry",
+      "channel": "email",
+      "timestamp": "2026-10-05T13:20:00",
+      "sender": "Ingrid Sorensen",
+      "synthetic": true,
+      "id": "MSG-033"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot scoping notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-08T15:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-034"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot plan",
+      "channel": "email",
+      "timestamp": "2026-10-12T10:50:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-035"
+    },
+    {
+      "kind": "message",
+      "label": "Vendor onboarding",
+      "channel": "email",
+      "timestamp": "2026-10-15T09:15:00",
+      "sender": "Paul Whitaker",
+      "synthetic": true,
+      "id": "MSG-036"
+    },
+    {
+      "kind": "message",
+      "label": "#larkspur",
+      "channel": "slack",
+      "timestamp": "2026-10-19T12:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-037"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot users",
+      "channel": "email",
+      "timestamp": "2026-10-22T14:35:00",
+      "sender": "Ingrid Sorensen",
+      "synthetic": true,
+      "id": "MSG-038"
+    },
+    {
+      "kind": "message",
+      "label": "Onboarding paperwork submitted",
+      "channel": "email",
+      "timestamp": "2026-10-26T11:20:00",
+      "sender": "Paul Whitaker",
+      "synthetic": true,
+      "id": "MSG-039"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot scope lock notes",
+      "channel": "meeting",
+      "timestamp": "2026-10-30T16:10:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-040"
+    },
+    {
+      "kind": "message",
+      "label": "#larkspur",
+      "channel": "slack",
+      "timestamp": "2026-11-02T09:40:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-041"
+    },
+    {
+      "kind": "message",
+      "label": "Decision meeting",
+      "channel": "email",
+      "timestamp": "2026-11-07T13:25:00",
+      "sender": "Ingrid Sorensen",
+      "synthetic": true,
+      "id": "MSG-042"
+    },
+    {
+      "kind": "message",
+      "label": "Onboarding approved",
+      "channel": "email",
+      "timestamp": "2026-11-10T10:15:00",
+      "sender": "Paul Whitaker",
+      "synthetic": true,
+      "id": "MSG-043"
+    },
+    {
+      "kind": "message",
+      "label": "#larkspur",
+      "channel": "slack",
+      "timestamp": "2026-11-13T08:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-044"
+    },
+    {
+      "kind": "message",
+      "label": "Evaluation criteria",
+      "channel": "email",
+      "timestamp": "2026-10-28T15:05:00",
+      "sender": "Ingrid Sorensen",
+      "synthetic": true,
+      "id": "MSG-045"
+    },
+    {
+      "kind": "message",
+      "label": "Pilot tech checklist",
+      "channel": "email",
+      "timestamp": "2026-11-08T11:45:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-046"
+    },
+    {
+      "kind": "message",
+      "label": "#larkspur",
+      "channel": "slack",
+      "timestamp": "2026-11-14T16:55:00",
+      "sender": "Paul Whitaker",
+      "synthetic": true,
+      "id": "MSG-047"
+    },
+    {
+      "kind": "message",
+      "label": "#support",
+      "channel": "slack",
+      "timestamp": "2026-10-06T10:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-048"
+    },
+    {
+      "kind": "message",
+      "label": "Ironwood ticket resolved",
+      "channel": "email",
+      "timestamp": "2026-10-12T09:20:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-049"
+    },
+    {
+      "kind": "message",
+      "label": "#support",
+      "channel": "slack",
+      "timestamp": "2026-10-20T13:15:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-050"
+    },
+    {
+      "kind": "message",
+      "label": "Ironwood QBR",
+      "channel": "email",
+      "timestamp": "2026-11-09T15:40:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-051"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-10-01T08:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-052"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-10-03T08:45:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-053"
+    },
+    {
+      "kind": "message",
+      "label": "Weekly pipeline",
+      "channel": "email",
+      "timestamp": "2026-10-10T12:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-054"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-10-17T17:30:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-055"
+    },
+    {
+      "kind": "message",
+      "label": "Security review status",
+      "channel": "email",
+      "timestamp": "2026-10-24T09:10:00",
+      "sender": "Tom Alvarez",
+      "synthetic": true,
+      "id": "MSG-056"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-10-31T16:20:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-057"
+    },
+    {
+      "kind": "message",
+      "label": "Pipeline review notes",
+      "channel": "meeting",
+      "timestamp": "2026-11-01T11:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-058"
+    },
+    {
+      "kind": "message",
+      "label": "#sales",
+      "channel": "slack",
+      "timestamp": "2026-11-05T10:25:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-059"
+    },
+    {
+      "kind": "message",
+      "label": "Weekly pipeline notes",
+      "channel": "meeting",
+      "timestamp": "2026-11-14T15:00:00",
+      "sender": "Priya Raman",
+      "synthetic": true,
+      "id": "MSG-060"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "P01",
+      "target": "MSG-005",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "P01",
+      "target": "MSG-014",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "P01",
+      "target": "MSG-016",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P01",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "P02",
+      "target": "MSG-002",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "P02",
+      "target": "MSG-009",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "P02",
+      "target": "MSG-012",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "P02",
+      "target": "MSG-015",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P02",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "P03",
+      "target": "MSG-001",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "P03",
+      "target": "MSG-004",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "P03",
+      "target": "MSG-006",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "P03",
+      "target": "MSG-007",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "P03",
+      "target": "MSG-011",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "P03",
+      "target": "MSG-013",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "P03",
+      "target": "MSG-017",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "P03",
+      "target": "MSG-019",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "P03",
+      "target": "MSG-021",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "P03",
+      "target": "MSG-026",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "P03",
+      "target": "MSG-029",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "P03",
+      "target": "MSG-030",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "P03",
+      "target": "MSG-032",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "P03",
+      "target": "MSG-034",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "P03",
+      "target": "MSG-037",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "P03",
+      "target": "MSG-040",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "P03",
+      "target": "MSG-044",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-06T10:30:00",
+      "source": "P03",
+      "target": "MSG-048",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "P03",
+      "target": "MSG-051",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "P03",
+      "target": "MSG-052",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "P03",
+      "target": "MSG-054",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "P03",
+      "target": "MSG-055",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "P03",
+      "target": "MSG-057",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "P03",
+      "target": "MSG-058",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "P03",
+      "target": "MSG-059",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "P03",
+      "target": "MSG-060",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P03",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "P04",
+      "target": "MSG-003",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "P04",
+      "target": "MSG-008",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "P04",
+      "target": "MSG-010",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "P04",
+      "target": "MSG-023",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "P04",
+      "target": "MSG-024",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-28T07:50:00",
+      "source": "P04",
+      "target": "MSG-025",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "P04",
+      "target": "MSG-035",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "P04",
+      "target": "MSG-041",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "P04",
+      "target": "MSG-046",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "P04",
+      "target": "MSG-049",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "P04",
+      "target": "MSG-050",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-03T08:45:00",
+      "source": "P04",
+      "target": "MSG-053",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "P04",
+      "target": "MSG-056",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P04",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "P05",
+      "target": "MSG-020",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "P05",
+      "target": "MSG-027",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "P05",
+      "target": "MSG-031",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P05",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "P06",
+      "target": "MSG-018",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "P06",
+      "target": "MSG-022",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "P06",
+      "target": "MSG-028",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P06",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "P07",
+      "target": "MSG-033",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "P07",
+      "target": "MSG-038",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "P07",
+      "target": "MSG-042",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "P07",
+      "target": "MSG-045",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P07",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "P08",
+      "target": "MSG-036",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "P08",
+      "target": "MSG-039",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "P08",
+      "target": "MSG-043",
+      "key": 0
+    },
+    {
+      "relation": "SENT",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "P08",
+      "target": "MSG-047",
+      "key": 0
+    },
+    {
+      "relation": "WORKS_AT",
+      "source": "P08",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "HAS_DEAL",
+      "source": "C01",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "HAS_DEAL",
+      "source": "C02",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "HAS_DEAL",
+      "source": "C03",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F01",
+      "target": "C01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F01",
+      "target": "D01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "F02",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "F02",
+      "target": "P01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "F02",
+      "target": "P01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "F02",
+      "target": "P01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "F02",
+      "target": "P01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "F02",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "F02",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "F02",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "F02",
+      "target": "C01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "F02",
+      "target": "C01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "F02",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "F02",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "F02",
+      "target": "D01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "F02",
+      "target": "D01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "F02",
+      "target": "D01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F03",
+      "target": "C01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F03",
+      "target": "D01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F04",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "F04",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F04",
+      "target": "P02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F04",
+      "target": "P02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F04",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "F04",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F04",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F04",
+      "target": "C01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F04",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "F04",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F04",
+      "target": "D01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F04",
+      "target": "D01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-008",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-009",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-010",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "F05",
+      "target": "C01",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-008",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-009",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-010",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "F05",
+      "target": "D01",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "F06",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F06",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "F06",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "F06",
+      "target": "D01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F07",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F08",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "F08",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "F09",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "F09",
+      "target": "P01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "F09",
+      "target": "P01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "F09",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "F09",
+      "target": "C01",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "F09",
+      "target": "C01",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F10",
+      "target": "C02",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F10",
+      "target": "D02",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "F11",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "F11",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F11",
+      "target": "C02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F11",
+      "target": "C02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "F11",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "F11",
+      "target": "D02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F11",
+      "target": "D02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F11",
+      "target": "D02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "F12",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-023",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "F12",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "F12",
+      "target": "C02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F12",
+      "target": "C02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "F12",
+      "target": "C02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "F12",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-023",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "F12",
+      "target": "D02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "F12",
+      "target": "D02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F12",
+      "target": "D02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "F12",
+      "target": "D02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "F13",
+      "target": "P05",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "F13",
+      "target": "C02",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "F13",
+      "target": "D02",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "F14",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F14",
+      "target": "P06",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "F14",
+      "target": "P06",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "F14",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F14",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "F14",
+      "target": "C02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "F14",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "F14",
+      "target": "D02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "F14",
+      "target": "D02",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "F15",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "F15",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-018",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "F16",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-018",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "F16",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-025",
+      "timestamp": "2026-10-28T07:50:00",
+      "source": "F17",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "F17",
+      "target": "C02",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F18",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "F18",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F18",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F18",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F18",
+      "target": "C03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F18",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "F18",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F18",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F18",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "F18",
+      "target": "D03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F19",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-038",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "F19",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F19",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "F19",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F19",
+      "target": "C03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F19",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-038",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "F19",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F19",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "F19",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F19",
+      "target": "D03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "F20",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F20",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "F20",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "F20",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "F20",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F20",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "F20",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "F20",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F21",
+      "target": "P07",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F21",
+      "target": "C03",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "F21",
+      "target": "D03",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F22",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "F22",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F22",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F22",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F22",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "F22",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "F22",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F22",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "F23",
+      "target": "P08",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F23",
+      "target": "P08",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-039",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "F23",
+      "target": "P08",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "F23",
+      "target": "P08",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "F23",
+      "target": "P08",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "F23",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "F23",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-039",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "F23",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "F23",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "F23",
+      "target": "C03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "F24",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "F24",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "F25",
+      "target": "P08",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "F25",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "F26",
+      "target": "C03",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 5
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "F26",
+      "target": "D03",
+      "key": 6
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-048",
+      "timestamp": "2026-10-06T10:30:00",
+      "source": "F27",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-049",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "F27",
+      "target": "C04",
+      "key": 1
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "F27",
+      "target": "C04",
+      "key": 2
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-051",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "F27",
+      "target": "C04",
+      "key": 3
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "F27",
+      "target": "C04",
+      "key": 4
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "F28",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "F29",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "F29",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-053",
+      "timestamp": "2026-10-03T08:45:00",
+      "source": "F30",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "ABOUT",
+      "source_msg": "MSG-053",
+      "timestamp": "2026-10-03T08:45:00",
+      "source": "F30",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "F04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "F07",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-001",
+      "timestamp": "2026-10-01T09:15:00",
+      "source": "MSG-001",
+      "target": "F08",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "MSG-002",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "MSG-002",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "MSG-002",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-002",
+      "timestamp": "2026-10-02T14:40:00",
+      "source": "MSG-002",
+      "target": "F09",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "MSG-003",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "MSG-003",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "MSG-003",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "MSG-003",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-003",
+      "timestamp": "2026-10-03T11:05:00",
+      "source": "MSG-003",
+      "target": "F04",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-004",
+      "timestamp": "2026-10-06T16:20:00",
+      "source": "MSG-004",
+      "target": "F06",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "MSG-005",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "MSG-005",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "MSG-005",
+      "target": "F02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-005",
+      "timestamp": "2026-10-08T10:02:00",
+      "source": "MSG-005",
+      "target": "F09",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "MSG-006",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "MSG-006",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "MSG-006",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "MSG-006",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-006",
+      "timestamp": "2026-10-09T09:30:00",
+      "source": "MSG-006",
+      "target": "F02",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "MSG-007",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "MSG-007",
+      "target": "P01",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "MSG-007",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-007",
+      "timestamp": "2026-10-13T15:45:00",
+      "source": "MSG-007",
+      "target": "F02",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "MSG-008",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "MSG-008",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-008",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "MSG-008",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-008",
+      "timestamp": "2026-10-15T13:00:00",
+      "source": "MSG-008",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "MSG-009",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-009",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "MSG-009",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-009",
+      "timestamp": "2026-10-20T08:55:00",
+      "source": "MSG-009",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "MSG-010",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-010",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "MSG-010",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-010",
+      "timestamp": "2026-10-27T17:10:00",
+      "source": "MSG-010",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "MSG-011",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "MSG-011",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "MSG-011",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "MSG-011",
+      "target": "D01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-011",
+      "timestamp": "2026-11-03T10:30:00",
+      "source": "MSG-011",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "MSG-012",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "MSG-012",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "MSG-012",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-012",
+      "timestamp": "2026-11-05T12:15:00",
+      "source": "MSG-012",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "MSG-013",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "MSG-013",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "MSG-013",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-013",
+      "timestamp": "2026-11-10T09:20:00",
+      "source": "MSG-013",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "MSG-014",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "MSG-014",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "MSG-014",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-014",
+      "timestamp": "2026-11-12T14:00:00",
+      "source": "MSG-014",
+      "target": "F02",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "P01",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "F06",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "F04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-015",
+      "timestamp": "2026-10-19T11:25:00",
+      "source": "MSG-015",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "MSG-016",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "MSG-016",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "MSG-016",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "MSG-016",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-016",
+      "timestamp": "2026-11-06T16:40:00",
+      "source": "MSG-016",
+      "target": "F09",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "MSG-017",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "MSG-017",
+      "target": "P02",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "MSG-017",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-017",
+      "timestamp": "2026-11-12T18:05:00",
+      "source": "MSG-017",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "MSG-018",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-018",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "MSG-018",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-018",
+      "timestamp": "2026-10-02T09:00:00",
+      "source": "MSG-018",
+      "target": "F16",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "P06",
+      "key": 1
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "P05",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-019",
+      "timestamp": "2026-10-05T15:30:00",
+      "source": "MSG-019",
+      "target": "F11",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-020",
+      "timestamp": "2026-10-07T11:10:00",
+      "source": "MSG-020",
+      "target": "F15",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "MSG-021",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "MSG-021",
+      "target": "P04",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "MSG-021",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "MSG-021",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-021",
+      "timestamp": "2026-10-09T13:45:00",
+      "source": "MSG-021",
+      "target": "F12",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "MSG-022",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "MSG-022",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-022",
+      "timestamp": "2026-10-14T10:20:00",
+      "source": "MSG-022",
+      "target": "F14",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "MSG-023",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-023",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "MSG-023",
+      "target": "P06",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-023",
+      "timestamp": "2026-10-16T09:35:00",
+      "source": "MSG-023",
+      "target": "F12",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "MSG-024",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "MSG-024",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "MSG-024",
+      "target": "P05",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "MSG-024",
+      "target": "F12",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-024",
+      "timestamp": "2026-10-21T16:00:00",
+      "source": "MSG-024",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-28T07:50:00",
+      "source": "MSG-025",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-025",
+      "timestamp": "2026-10-28T07:50:00",
+      "source": "MSG-025",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-025",
+      "timestamp": "2026-10-28T07:50:00",
+      "source": "MSG-025",
+      "target": "F17",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "MSG-026",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "MSG-026",
+      "target": "P05",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "MSG-026",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "MSG-026",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-026",
+      "timestamp": "2026-10-29T12:30:00",
+      "source": "MSG-026",
+      "target": "F17",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "MSG-027",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "MSG-027",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-027",
+      "timestamp": "2026-11-04T15:15:00",
+      "source": "MSG-027",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "MSG-028",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "MSG-028",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "MSG-028",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "MSG-028",
+      "target": "F14",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-028",
+      "timestamp": "2026-11-06T10:05:00",
+      "source": "MSG-028",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "MSG-029",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "MSG-029",
+      "target": "P06",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "MSG-029",
+      "target": "F11",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-029",
+      "timestamp": "2026-11-11T09:45:00",
+      "source": "MSG-029",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "P05",
+      "key": 1
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-030",
+      "timestamp": "2026-11-13T14:30:00",
+      "source": "MSG-030",
+      "target": "F12",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "MSG-031",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "MSG-031",
+      "target": "P06",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "MSG-031",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-031",
+      "timestamp": "2026-10-23T08:40:00",
+      "source": "MSG-031",
+      "target": "F12",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "MSG-032",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "MSG-032",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "MSG-032",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "MSG-032",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-032",
+      "timestamp": "2026-11-11T17:25:00",
+      "source": "MSG-032",
+      "target": "F14",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "MSG-033",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "MSG-033",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "MSG-033",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-033",
+      "timestamp": "2026-10-05T13:20:00",
+      "source": "MSG-033",
+      "target": "F24",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "P07",
+      "key": 1
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "F18",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "F19",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-034",
+      "timestamp": "2026-10-08T15:00:00",
+      "source": "MSG-034",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "MSG-035",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "MSG-035",
+      "target": "P07",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "MSG-035",
+      "target": "F20",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-035",
+      "timestamp": "2026-10-12T10:50:00",
+      "source": "MSG-035",
+      "target": "F18",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "MSG-036",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "MSG-036",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "MSG-036",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "MSG-036",
+      "target": "F23",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-036",
+      "timestamp": "2026-10-15T09:15:00",
+      "source": "MSG-036",
+      "target": "F25",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "P08",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "F22",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-037",
+      "timestamp": "2026-10-19T12:00:00",
+      "source": "MSG-037",
+      "target": "F23",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "MSG-038",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-038",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "MSG-038",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-038",
+      "timestamp": "2026-10-22T14:35:00",
+      "source": "MSG-038",
+      "target": "F19",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "MSG-039",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-039",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "MSG-039",
+      "target": "P04",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-039",
+      "timestamp": "2026-10-26T11:20:00",
+      "source": "MSG-039",
+      "target": "F23",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "P07",
+      "key": 1
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "P08",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "F18",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "F20",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "F19",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-040",
+      "timestamp": "2026-10-30T16:10:00",
+      "source": "MSG-040",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-041",
+      "timestamp": "2026-11-02T09:40:00",
+      "source": "MSG-041",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "MSG-042",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "MSG-042",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "MSG-042",
+      "target": "F22",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-042",
+      "timestamp": "2026-11-07T13:25:00",
+      "source": "MSG-042",
+      "target": "F20",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "MSG-043",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "MSG-043",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "MSG-043",
+      "target": "F23",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-043",
+      "timestamp": "2026-11-10T10:15:00",
+      "source": "MSG-043",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "F19",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-044",
+      "timestamp": "2026-11-13T08:30:00",
+      "source": "MSG-044",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "MSG-045",
+      "target": "P08",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "MSG-045",
+      "target": "P08",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "MSG-045",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "MSG-045",
+      "target": "F20",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-045",
+      "timestamp": "2026-10-28T15:05:00",
+      "source": "MSG-045",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "MSG-046",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "MSG-046",
+      "target": "P07",
+      "key": 1
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "MSG-046",
+      "target": "F18",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "MSG-046",
+      "target": "F19",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-046",
+      "timestamp": "2026-11-08T11:45:00",
+      "source": "MSG-046",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "MSG-047",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "MSG-047",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "MSG-047",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "MSG-047",
+      "target": "F23",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-047",
+      "timestamp": "2026-11-14T16:55:00",
+      "source": "MSG-047",
+      "target": "F26",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-06T10:30:00",
+      "source": "MSG-048",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-048",
+      "timestamp": "2026-10-06T10:30:00",
+      "source": "MSG-048",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-048",
+      "timestamp": "2026-10-06T10:30:00",
+      "source": "MSG-048",
+      "target": "F27",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "MSG-049",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-049",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "MSG-049",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-049",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "MSG-049",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-049",
+      "timestamp": "2026-10-12T09:20:00",
+      "source": "MSG-049",
+      "target": "F27",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "MSG-050",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "MSG-050",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "MSG-050",
+      "target": "F28",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-050",
+      "timestamp": "2026-10-20T13:15:00",
+      "source": "MSG-050",
+      "target": "F27",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "MSG-051",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-051",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "MSG-051",
+      "target": "P04",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-051",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "MSG-051",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-051",
+      "timestamp": "2026-11-09T15:40:00",
+      "source": "MSG-051",
+      "target": "F27",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "C00",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-052",
+      "timestamp": "2026-10-01T08:00:00",
+      "source": "MSG-052",
+      "target": "F29",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-03T08:45:00",
+      "source": "MSG-053",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-053",
+      "timestamp": "2026-10-03T08:45:00",
+      "source": "MSG-053",
+      "target": "F30",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "P04",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "F18",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-054",
+      "timestamp": "2026-10-10T12:00:00",
+      "source": "MSG-054",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "F11",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-055",
+      "timestamp": "2026-10-17T17:30:00",
+      "source": "MSG-055",
+      "target": "F22",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "P03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "P03",
+      "key": 1
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-056",
+      "timestamp": "2026-10-24T09:10:00",
+      "source": "MSG-056",
+      "target": "F05",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "MSG-057",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "MSG-057",
+      "target": "P01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "MSG-057",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-057",
+      "timestamp": "2026-10-31T16:20:00",
+      "source": "MSG-057",
+      "target": "F02",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "P07",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "P06",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "P02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "D03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "F04",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-058",
+      "timestamp": "2026-11-01T11:00:00",
+      "source": "MSG-058",
+      "target": "F21",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "MSG-059",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "MSG-059",
+      "target": "P05",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "MSG-059",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-059",
+      "timestamp": "2026-11-05T10:25:00",
+      "source": "MSG-059",
+      "target": "F13",
+      "key": 0
+    },
+    {
+      "relation": "TO",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "P04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "C04",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "C03",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "C02",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "C01",
+      "key": 0
+    },
+    {
+      "relation": "MENTIONS",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "D02",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F01",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F10",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F03",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F11",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F22",
+      "key": 0
+    },
+    {
+      "relation": "STATES",
+      "source_msg": "MSG-060",
+      "timestamp": "2026-11-14T15:00:00",
+      "source": "MSG-060",
+      "target": "F27",
+      "key": 0
+    }
+  ]
+}

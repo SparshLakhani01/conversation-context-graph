@@ -1,0 +1,367 @@
+{
+  "n_questions": 16,
+  "graph": {
+    "accuracy": 1.0,
+    "mean_citation_precision": 0.9583125
+  },
+  "baseline": {
+    "accuracy": 0.875,
+    "mean_citation_precision": 0.6667500000000001
+  },
+  "rows": [
+    {
+      "question": "Who asked for quarterly billing at Harborview Medical?",
+      "expected": "Rachel Kim",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-014"
+        ],
+        "answer": "Based on the conversation graph: Rachel Kim asked for quarterly billing terms for the Harborview Medical deal."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-007",
+          "MSG-006",
+          "MSG-005"
+        ],
+        "answer": "Retrieved messages: Hi Rachel, good news: we can offer quarterly billing for Harborview Medical. I have updated the proposal to reflect quarterly billing terms.... | Heads up: Rachel Kim asked for quarterly billing on the Harborview deal. I need to check with our finance team whether we can accommodate th... | Hi Priya, thanks for the proposal. Before we go further, could we do quarterly billing instead of annual prepay? Our finance team strongly p..."
+      }
+    },
+    {
+      "question": "What is the annual value of the Harborview Medical deal?",
+      "expected": "$96,000",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: The Harborview Medical deal is worth $96,000 per year."
+      },
+      "baseline": {
+        "correct": false,
+        "citation_precision": 0.0,
+        "citations": [
+          "MSG-003",
+          "MSG-052",
+          "MSG-010"
+        ],
+        "answer": "Retrieved messages: Quick note: David Osei confirmed as our champion on the Harborview deal. He runs operations and has the ear of the executive team. Good sign... | Quick intro for the channel: I am the Meridian account executive covering Harborview Medical, Beacon Freight, and Larkspur Outdoors this qua... | Chasing Harborview IT again today. The security review is still pending and it is now the gating item for the December timeline."
+      }
+    },
+    {
+      "question": "When is the Harborview Medical deal expected to close?",
+      "expected": "December 12",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: The Harborview Medical deal is expected to close on December 12."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-013",
+          "MSG-011",
+          "MSG-006"
+        ],
+        "answer": "Retrieved messages: Update: David confirmed the December 12 close target for Harborview, contingent on the security review. Keeping the forecast as-is for now. | Hi David, checking in on timing. We are targeting a December 12 close for the Harborview deal. Can you confirm that date still works on your... | Heads up: Rachel Kim asked for quarterly billing on the Harborview deal. I need to check with our finance team whether we can accommodate th..."
+      }
+    },
+    {
+      "question": "Who is the champion for the Harborview Medical deal?",
+      "expected": "David Osei",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-058"
+        ],
+        "answer": "Based on the conversation graph: David Osei is the champion for the Harborview Medical deal."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-003",
+          "MSG-013",
+          "MSG-001"
+        ],
+        "answer": "Retrieved messages: Quick note: David Osei confirmed as our champion on the Harborview deal. He runs operations and has the ear of the executive team. Good sign... | Update: David confirmed the December 12 close target for Harborview, contingent on the security review. Keeping the forecast as-is for now. | Hi David, great speaking yesterday. To recap, Harborview Medical has 340 staff across 3 clinics, and you kindly agreed to champion this inte..."
+      }
+    },
+    {
+      "question": "What is still pending on the Harborview Medical deal?",
+      "expected": "security review",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-017"
+        ],
+        "answer": "Based on the conversation graph: A security review is still pending for the Harborview Medical deal."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-010",
+          "MSG-056",
+          "MSG-017"
+        ],
+        "answer": "Retrieved messages: Chasing Harborview IT again today. The security review is still pending and it is now the gating item for the December timeline. | Hi Priya, security review status across deals: Harborview is still pending, Beacon cleared theirs last year, and Larkspur's onboarding cover... | Hi David, just checking whether there is any news on the security review. It is still showing as pending on our tracker, and December 12 dep..."
+      }
+    },
+    {
+      "question": "What is Beacon Freight's renewal date?",
+      "expected": "January 31",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: The Beacon Freight renewal date is January 31."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-019",
+          "MSG-029",
+          "MSG-032"
+        ],
+        "answer": "Retrieved messages: Renewal meeting. The Beacon Freight renewal is $145,000 per year, and the renewal date is January 31. Sam raised the expansion idea; Grace w... | Hi Sam, the renewal paperwork is ready for review. Confirming the renewal date of January 31 and the $145,000 per year figure. Let me know w... | Sam is pushing for a December 19 signature on the Beacon renewal. Renewal itself is straightforward; expansion is the only piece waiting on ..."
+      }
+    },
+    {
+      "question": "How much is the Beacon Freight renewal worth per year?",
+      "expected": "$145,000",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: The Beacon Freight renewal is worth $145,000 per year."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-019",
+          "MSG-026",
+          "MSG-054"
+        ],
+        "answer": "Retrieved messages: Renewal meeting. The Beacon Freight renewal is $145,000 per year, and the renewal date is January 31. Sam raised the expansion idea; Grace w... | Hi Grace, attaching the postmortem for the October 28 outage, which affected Beacon Freight and was resolved in 2 hours. Separately, recappi... | Hi Tom, weekly pipeline: Harborview at $96,000 per year, Beacon renewal at $145,000 per year, and the Larkspur pilot running 6 weeks. Harbor..."
+      }
+    },
+    {
+      "question": "What expansion is Beacon Freight considering?",
+      "expected": "analytics module",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-030"
+        ],
+        "answer": "Based on the conversation graph: Beacon Freight is considering an expansion adding the analytics module and 25 seats. Beacon Freight's expansion spend needs board approval."
+      },
+      "baseline": {
+        "correct": false,
+        "citation_precision": 0.0,
+        "citations": [
+          "MSG-019",
+          "MSG-025",
+          "MSG-020"
+        ],
+        "answer": "Retrieved messages: Renewal meeting. The Beacon Freight renewal is $145,000 per year, and the renewal date is January 31. Sam raised the expansion idea; Grace w... | Incident: service outage this morning affected Beacon Freight. Resolved in 2 hours. Root cause was a database failover. Postmortem to follow... | Hi Priya, I am Grace Nolan, CFO at Beacon Freight. Sam speaks highly of the partnership. Any expansion spend will need board approval, so pl..."
+      }
+    },
+    {
+      "question": "What approval does Beacon Freight's expansion spend need?",
+      "expected": "board approval",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-030"
+        ],
+        "answer": "Based on the conversation graph: Beacon Freight's expansion spend needs board approval."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-020",
+          "MSG-027",
+          "MSG-031"
+        ],
+        "answer": "Retrieved messages: Hi Priya, I am Grace Nolan, CFO at Beacon Freight. Sam speaks highly of the partnership. Any expansion spend will need board approval, so pl... | Hi Priya, the board meets on December 9. The expansion decision will come after that meeting, since the expansion spend needs board approval... | Sam, for the expansion I need a one-page justification before the December board meeting. The analytics module and 25 seats are the scope. B..."
+      }
+    },
+    {
+      "question": "How long is the Larkspur Outdoors pilot?",
+      "expected": "6 week",
+      "graph": {
+        "correct": true,
+        "citation_precision": 0.333,
+        "citations": [
+          "MSG-041",
+          "MSG-046",
+          "MSG-044"
+        ],
+        "answer": "Based on the conversation graph: Ingrid Sorensen is evaluating the Larkspur Outdoors pilot. The Larkspur Outdoors pilot runs for 6 weeks. The Larkspur Outdoors pilot includes 20 users."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.333,
+        "citations": [
+          "MSG-034",
+          "MSG-033",
+          "MSG-037"
+        ],
+        "answer": "Retrieved messages: Pilot scoping: the Larkspur Outdoors pilot runs for 6 weeks with 20 users, starting November 17. Ingrid will lead the evaluation. | Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what ... | Larkspur update: Ingrid Sorensen is evaluating the pilot, and the decision is due by January 9. Paul is handling the onboarding paperwork in..."
+      }
+    },
+    {
+      "question": "How many users are in the Larkspur Outdoors pilot?",
+      "expected": "20 users",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-044"
+        ],
+        "answer": "Based on the conversation graph: The Larkspur Outdoors pilot includes 20 users."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-034",
+          "MSG-033",
+          "MSG-044"
+        ],
+        "answer": "Retrieved messages: Pilot scoping: the Larkspur Outdoors pilot runs for 6 weeks with 20 users, starting November 17. Ingrid will lead the evaluation. | Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what ... | Kickoff reminder: 20 users confirmed for the Larkspur pilot, starting November 17. Ingrid has the agenda."
+      }
+    },
+    {
+      "question": "What is the Larkspur Outdoors pilot's success criterion?",
+      "expected": "30%",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-042"
+        ],
+        "answer": "Based on the conversation graph: The Larkspur Outdoors pilot's success criterion is cutting invoice processing time by 30%."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-035",
+          "MSG-033",
+          "MSG-045"
+        ],
+        "answer": "Retrieved messages: Hi Ingrid, attaching the pilot plan. The agreed success criterion is cutting invoice processing time by 30% over the 6 weeks of the pilot. | Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what ... | Hi Paul, for the pilot evaluation I will measure whether we cut invoice processing time by 30%. That is the success criterion we agreed with..."
+      }
+    },
+    {
+      "question": "Who is evaluating the pilot at Larkspur Outdoors?",
+      "expected": "Ingrid Sorensen",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-041"
+        ],
+        "answer": "Based on the conversation graph: Ingrid Sorensen is evaluating the Larkspur Outdoors pilot."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.667,
+        "citations": [
+          "MSG-037",
+          "MSG-033",
+          "MSG-034"
+        ],
+        "answer": "Retrieved messages: Larkspur update: Ingrid Sorensen is evaluating the pilot, and the decision is due by January 9. Paul is handling the onboarding paperwork in... | Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what ... | Pilot scoping: the Larkspur Outdoors pilot runs for 6 weeks with 20 users, starting November 17. Ingrid will lead the evaluation."
+      }
+    },
+    {
+      "question": "When is Larkspur Outdoors' pilot decision due?",
+      "expected": "January 9",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: Larkspur Outdoors will decide on the pilot by January 9."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 0.333,
+        "citations": [
+          "MSG-037",
+          "MSG-034",
+          "MSG-033"
+        ],
+        "answer": "Retrieved messages: Larkspur update: Ingrid Sorensen is evaluating the pilot, and the decision is due by January 9. Paul is handling the onboarding paperwork in... | Pilot scoping: the Larkspur Outdoors pilot runs for 6 weeks with 20 users, starting November 17. Ingrid will lead the evaluation. | Hi Priya, we are interested in running a pilot. I lead IT at Larkspur Outdoors and would own the evaluation on our side. Can you share what ..."
+      }
+    },
+    {
+      "question": "Who handles vendor onboarding paperwork at Larkspur Outdoors?",
+      "expected": "Paul Whitaker",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-047"
+        ],
+        "answer": "Based on the conversation graph: Paul Whitaker handles vendor onboarding paperwork at Larkspur Outdoors."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-036",
+          "MSG-039",
+          "MSG-043"
+        ],
+        "answer": "Retrieved messages: Hi Priya, I am Paul Whitaker, Procurement Manager at Larkspur Outdoors. I handle vendor onboarding paperwork, and I will need your security ... | Hi Tom, the vendor onboarding paperwork has been submitted to our legal team. I handle the paperwork on our side, so come to me with any que... | Hi Priya, good news: the vendor onboarding paperwork is approved. We are clear to start the pilot on November 17."
+      }
+    },
+    {
+      "question": "Does Ironwood Components have an open deal?",
+      "expected": "no open deal",
+      "graph": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-060"
+        ],
+        "answer": "Based on the conversation graph: Ironwood Components has no open deal with Meridian; the relationship is support-only."
+      },
+      "baseline": {
+        "correct": true,
+        "citation_precision": 1.0,
+        "citations": [
+          "MSG-049",
+          "MSG-048",
+          "MSG-050"
+        ],
+        "answer": "Retrieved messages: Hi Priya, the Ironwood ticket is resolved. For the record, Ironwood Components has no open deal with us; the relationship is support-only. | Ironwood Components opened a support ticket: their report export is slow. No open deal here, just support. Can you take a look? | Note for the forecast: Ironwood Components renewed back in June and there is nothing open. Support-only account."
+      }
+    }
+  ]
+}

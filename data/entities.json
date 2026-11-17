@@ -1,0 +1,368 @@
+{
+  "synthetic": true,
+  "people": [
+    {
+      "id": "P01",
+      "name": "Rachel Kim",
+      "title": "VP Finance",
+      "company": "C01",
+      "aliases": [
+        "Rachel",
+        "Rachel Kim"
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "David Osei",
+      "title": "Director of Operations",
+      "company": "C01",
+      "aliases": [
+        "David",
+        "David Osei"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "Priya Raman",
+      "title": "Account Executive",
+      "company": "C00",
+      "aliases": [
+        "Priya",
+        "Priya Raman"
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Tom Alvarez",
+      "title": "Sales Engineer",
+      "company": "C00",
+      "aliases": [
+        "Tom",
+        "Tom Alvarez"
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "Grace Nolan",
+      "title": "CFO",
+      "company": "C02",
+      "aliases": [
+        "Grace",
+        "Grace Nolan"
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "Sam Okafor",
+      "title": "VP Operations",
+      "company": "C02",
+      "aliases": [
+        "Sam",
+        "Sam Okafor"
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "Ingrid Sorensen",
+      "title": "Head of IT",
+      "company": "C03",
+      "aliases": [
+        "Ingrid",
+        "Ingrid Sorensen"
+      ]
+    },
+    {
+      "id": "P08",
+      "name": "Paul Whitaker",
+      "title": "Procurement Manager",
+      "company": "C03",
+      "aliases": [
+        "Paul",
+        "Paul Whitaker"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "C00",
+      "name": "Meridian",
+      "aliases": [
+        "Meridian"
+      ]
+    },
+    {
+      "id": "C01",
+      "name": "Harborview Medical",
+      "aliases": [
+        "Harborview",
+        "Harborview Medical"
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Beacon Freight",
+      "aliases": [
+        "Beacon",
+        "Beacon Freight"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Larkspur Outdoors",
+      "aliases": [
+        "Larkspur",
+        "Larkspur Outdoors"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Ironwood Components",
+      "aliases": [
+        "Ironwood",
+        "Ironwood Components"
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": "D01",
+      "name": "Harborview Medical annual contract",
+      "company": "C01",
+      "aliases": [
+        "Harborview deal",
+        "DEAL-001"
+      ]
+    },
+    {
+      "id": "D02",
+      "name": "Beacon Freight renewal and expansion",
+      "company": "C02",
+      "aliases": [
+        "Beacon renewal",
+        "DEAL-002"
+      ]
+    },
+    {
+      "id": "D03",
+      "name": "Larkspur Outdoors pilot",
+      "company": "C03",
+      "aliases": [
+        "Larkspur pilot",
+        "DEAL-003"
+      ]
+    }
+  ],
+  "facts": {
+    "F01": {
+      "statement": "The Harborview Medical deal is worth $96,000 per year.",
+      "entities": [
+        "C01",
+        "D01"
+      ]
+    },
+    "F02": {
+      "statement": "Rachel Kim asked for quarterly billing terms for the Harborview Medical deal.",
+      "entities": [
+        "P01",
+        "C01",
+        "D01"
+      ]
+    },
+    "F03": {
+      "statement": "The Harborview Medical deal is expected to close on December 12.",
+      "entities": [
+        "C01",
+        "D01"
+      ]
+    },
+    "F04": {
+      "statement": "David Osei is the champion for the Harborview Medical deal.",
+      "entities": [
+        "P02",
+        "C01",
+        "D01"
+      ]
+    },
+    "F05": {
+      "statement": "A security review is still pending for the Harborview Medical deal.",
+      "entities": [
+        "C01",
+        "D01"
+      ]
+    },
+    "F06": {
+      "statement": "Harborview Medical is considering a 2-year term.",
+      "entities": [
+        "C01",
+        "D01"
+      ]
+    },
+    "F07": {
+      "statement": "Harborview Medical has 340 staff across 3 clinics.",
+      "entities": [
+        "C01"
+      ]
+    },
+    "F08": {
+      "statement": "David Osei is Director of Operations at Harborview Medical.",
+      "entities": [
+        "P02",
+        "C01"
+      ]
+    },
+    "F09": {
+      "statement": "Rachel Kim is VP Finance at Harborview Medical.",
+      "entities": [
+        "P01",
+        "C01"
+      ]
+    },
+    "F10": {
+      "statement": "The Beacon Freight renewal is worth $145,000 per year.",
+      "entities": [
+        "C02",
+        "D02"
+      ]
+    },
+    "F11": {
+      "statement": "The Beacon Freight renewal date is January 31.",
+      "entities": [
+        "C02",
+        "D02"
+      ]
+    },
+    "F12": {
+      "statement": "Beacon Freight is considering an expansion adding the analytics module and 25 seats.",
+      "entities": [
+        "C02",
+        "D02"
+      ]
+    },
+    "F13": {
+      "statement": "Beacon Freight's expansion spend needs board approval.",
+      "entities": [
+        "P05",
+        "C02",
+        "D02"
+      ]
+    },
+    "F14": {
+      "statement": "Sam Okafor wants the Beacon Freight renewal signed before the holidays, by December 19.",
+      "entities": [
+        "P06",
+        "C02",
+        "D02"
+      ]
+    },
+    "F15": {
+      "statement": "Grace Nolan is CFO at Beacon Freight.",
+      "entities": [
+        "P05",
+        "C02"
+      ]
+    },
+    "F16": {
+      "statement": "Sam Okafor is VP Operations at Beacon Freight.",
+      "entities": [
+        "P06",
+        "C02"
+      ]
+    },
+    "F17": {
+      "statement": "Beacon Freight was affected by a service outage on October 28 that was resolved in 2 hours.",
+      "entities": [
+        "C02"
+      ]
+    },
+    "F18": {
+      "statement": "The Larkspur Outdoors pilot runs for 6 weeks.",
+      "entities": [
+        "C03",
+        "D03"
+      ]
+    },
+    "F19": {
+      "statement": "The Larkspur Outdoors pilot includes 20 users.",
+      "entities": [
+        "C03",
+        "D03"
+      ]
+    },
+    "F20": {
+      "statement": "The Larkspur Outdoors pilot's success criterion is cutting invoice processing time by 30%.",
+      "entities": [
+        "C03",
+        "D03"
+      ]
+    },
+    "F21": {
+      "statement": "Ingrid Sorensen is evaluating the Larkspur Outdoors pilot.",
+      "entities": [
+        "P07",
+        "C03",
+        "D03"
+      ]
+    },
+    "F22": {
+      "statement": "Larkspur Outdoors will decide on the pilot by January 9.",
+      "entities": [
+        "C03",
+        "D03"
+      ]
+    },
+    "F23": {
+      "statement": "Paul Whitaker handles vendor onboarding paperwork at Larkspur Outdoors.",
+      "entities": [
+        "P08",
+        "C03"
+      ]
+    },
+    "F24": {
+      "statement": "Ingrid Sorensen is Head of IT at Larkspur Outdoors.",
+      "entities": [
+        "P07",
+        "C03"
+      ]
+    },
+    "F25": {
+      "statement": "Paul Whitaker is Procurement Manager at Larkspur Outdoors.",
+      "entities": [
+        "P08",
+        "C03"
+      ]
+    },
+    "F26": {
+      "statement": "The Larkspur Outdoors pilot starts on November 17.",
+      "entities": [
+        "C03",
+        "D03"
+      ]
+    },
+    "F27": {
+      "statement": "Ironwood Components has no open deal with Meridian; the relationship is support-only.",
+      "entities": [
+        "C04"
+      ]
+    },
+    "F28": {
+      "statement": "Ironwood Components renewed its contract back in June.",
+      "entities": [
+        "C04"
+      ]
+    },
+    "F29": {
+      "statement": "Priya Raman is the Meridian account executive for these accounts.",
+      "entities": [
+        "P03",
+        "C00"
+      ]
+    },
+    "F30": {
+      "statement": "Tom Alvarez is the Meridian sales engineer supporting these deals.",
+      "entities": [
+        "P04",
+        "C00"
+      ]
+    }
+  }
+}
